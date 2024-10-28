@@ -7,3 +7,4 @@ execute:from erpnext_germany.install import insert_custom_records; insert_custom
 erpnext_germany.patches.change_position_of_register_info
 erpnext_germany.patches.dynamic_party_in_vat_id_check
 erpnext_germany.patches.add_business_trip_to_expense_claim
+erpnext_germany.patches.import_business_trip_regions

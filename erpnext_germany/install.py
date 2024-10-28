@@ -18,6 +18,7 @@ def import_data():
 		("Religious Denomination", "religious_denomination.csv"),
 		("Employee Health Insurance", "employee_health_insurance.csv"),
 		("Expense Claim Type", "expense_claim_type.csv"),
+		("Business Trip Region", "business_trip_region.csv"),
 	):
 		if not frappe.db.exists("DocType", doctype):
 			continue

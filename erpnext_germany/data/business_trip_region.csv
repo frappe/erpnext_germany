@@ -1,0 +1,225 @@
+title,whole_day,arrival_or_departure,accommodation,valid_from
+Afghanistan,30,20,95,2024-01-01
+Ägypten,50,33,112,2024-01-01
+Äthiopien,39,26,130,2024-01-01
+Äquatorialguinea,42,28,166,2024-01-01
+Albanien,27,18,112,2024-01-01
+Algerien,47,32,120,2024-01-01
+Andorra,41,28,91,2024-01-01
+Angola,52,35,299,2024-01-01
+Argentinien,35,24,113,2024-01-01
+Armenien,24,16,59,2024-01-01
+Aserbaidschan,44,29,88,2024-01-01
+Australien: Canberra,74,49,186,2024-01-01
+Australien: Sydney,57,38,173,2024-01-01
+Australien,57,38,173,2024-01-01
+Bahrain,48,32,153,2024-01-01
+Bangladesch,50,33,165,2024-01-01
+Barbados,54,36,206,2024-01-01
+Belgien,59,40,141,2024-01-01
+Benin,52,35,115,2024-01-01
+Bolivien,46,31,108,2024-01-01
+Bosnien und Herzegowina,23,16,75,2024-01-01
+Botsuana,46,31,176,2024-01-01
+Brasilien: Brasilia,51,34,88,2024-01-01
+Brasilien: Rio de Janeiro,69,46,140,2024-01-01
+Brasilien: Sao Paulo,46,31,151,2024-01-01
+Brasilien,46,31,88,2024-01-01
+Brunei,52,35,106,2024-01-01
+Bulgarien,22,15,115,2024-01-01
+Burkina Faso,38,25,174,2024-01-01
+Burundi,36,24,138,2024-01-01
+Chile,44,29,154,2024-01-01
+China: Chengdu,41,28,131,2024-01-01
+China: Hongkong,71,48,169,2024-01-01
+China: Kanton,36,24,150,2024-01-01
+China: Peking,30,20,185,2024-01-01
+China: Shanghai,58,39,217,2024-01-01
+China,48,32,112,2024-01-01
+Costa Rica,47,32,93,2024-01-01
+Côte d’Ivoire,59,40,166,2024-01-01
+Dänemark,75,50,183,2024-01-01
+Deutschland,28,14,0,2024-01-01
+Dominikanische Republik,50,33,167,2024-01-01
+Dschibuti,77,52,255,2024-01-01
+Ecuador,27,18,103,2024-01-01
+El Salvador,65,44,161,2024-01-01
+Eritrea,50,33,91,2024-01-01
+Estland,29,20,85,2024-01-01
+Fidschi,32,21,183,2024-01-01
+Finnland,54,36,171,2024-01-01
+"Frankreich: Paris sowie die Departments 77, 78, 91 bis 95",58,39,159,2024-01-01
+Frankreich,53,36,105,2024-01-01
+Gabun,52,35,183,2024-01-01
+Gambia,40,27,161,2024-01-01
+Georgien,45,30,87,2024-01-01
+Ghana,46,31,148,2024-01-01
+Griechenland: Athen,40,27,139,2024-01-01
+Griechenland,36,24,150,2024-01-01
+Guatemala,34,23,90,2024-01-01
+Guinea,59,40,140,2024-01-01
+Guinea-Bissau,32,21,113,2024-01-01
+Haiti,58,39,130,2024-01-01
+Honduras,57,38,198,2024-01-01
+Indien: Chennai,32,21,85,2024-01-01
+Indien: Kalkutta,35,24,145,2024-01-01
+Indien: Mumbai,50,33,146,2024-01-01
+Indien: Neu Delhi,38,25,185,2024-01-01
+Indien,32,21,85,2024-01-01
+Indonesien,36,24,134,2024-01-01
+Iran,33,22,196,2024-01-01
+Irland,58,39,129,2024-01-01
+Island,62,41,187,2024-01-01
+Israel,66,44,190,2024-01-01
+Italien: Mailand,42,28,191,2024-01-01
+Italien: Rom,48,32,150,2024-01-01
+Italien,42,28,150,2024-01-01
+Jamaika,39,26,171,2024-01-01
+Japan: Tokio,50,33,285,2024-01-01
+Japan,52,35,190,2024-01-01
+Jemen,24,16,95,2024-01-01
+Jordanien,57,38,134,2024-01-01
+Kambodscha,38,25,94,2024-01-01
+Kamerun,56,37,275,2024-01-01
+Kanada: Ottawa,62,41,214,2024-01-01
+Kanada: Toronto,54,36,392,2024-01-01
+Kanada: Vancouver,63,42,304,2024-01-01
+Kanada,54,36,214,2024-01-01
+Kap Verde,38,25,90,2024-01-01
+Kasachstan,45,30,111,2024-01-01
+Katar,56,37,149,2024-01-01
+Kenia,51,34,219,2024-01-01
+Kirgisistan,27,18,74,2024-01-01
+Kolumbien,46,31,115,2024-01-01
+"Kongo, Republik",62,41,215,2024-01-01
+"Kongo, Demokratische Republik",70,47,190,2024-01-01
+"Korea, Demokratische Volksrepublik",28,19,92,2024-01-01
+"Korea, Republik",48,32,108,2024-01-01
+Kosovo,24,16,71,2024-01-01
+Kroatien,35,24,107,2024-01-01
+Kuba,51,34,170,2024-01-01
+Kuwait,56,37,241,2024-01-01
+Laos,35,24,71,2024-01-01
+Lesotho,28,19,104,2024-01-01
+Lettland,35,24,76,2024-01-01
+Libanon,69,46,146,2024-01-01
+Libyen,63,42,135,2024-01-01
+Liechtenstein,56,37,190,2024-01-01
+Litauen,26,17,109,2024-01-01
+Luxemburg,63,42,139,2024-01-01
+Madagaskar,33,22,116,2024-01-01
+Malawi,41,28,109,2024-01-01
+Malaysia,36,24,86,2024-01-01
+Malediven,52,35,170,2024-01-01
+Mali,38,25,120,2024-01-01
+Malta,46,31,114,2024-01-01
+Marokko,41,28,87,2024-01-01
+Marshall Inseln,63,42,102,2024-01-01
+Mauretanien,35,24,86,2024-01-01
+Mauritius,44,29,172,2024-01-01
+Mexiko,48,32,177,2024-01-01
+"Moldau, Republik",26,17,73,2024-01-01
+Monaco,52,35,187,2024-01-01
+Mongolei,23,16,92,2024-01-01
+Montenegro,32,21,85,2024-01-01
+Mosambik,51,34,208,2024-01-01
+Myanmar,35,24,155,2024-01-01
+Namibia,30,20,112,2024-01-01
+Nepal,36,24,126,2024-01-01
+Neuseeland,58,39,148,2024-01-01
+Nicaragua,46,31,105,2024-01-01
+Niederlande,47,32,122,2024-01-01
+Niger,42,28,131,2024-01-01
+Nigeria,46,31,182,2024-01-01
+Nordmazedonien,27,18,89,2024-01-01
+Norwegen,75,50,139,2024-01-01
+Österreich,50,33,117,2024-01-01
+Oman,64,43,141,2024-01-01
+Pakistan: Islamabad,23,16,238,2024-01-01
+Pakistan,34,23,122,2024-01-01
+Palau,51,34,179,2024-01-01
+Panama,41,28,82,2024-01-01
+Papua-Neuguinea,59,40,159,2024-01-01
+Paraguay,39,26,124,2024-01-01
+Peru,34,23,143,2024-01-01
+Philippinen,41,28,140,2024-01-01
+Polen: Breslau,33,22,117,2024-01-01
+Polen: Danzig,30,20,84,2024-01-01
+Polen: Krakau,27,18,86,2024-01-01
+Polen: Warschau,29,20,109,2024-01-01
+Polen,29,20,60,2024-01-01
+Portugal,32,21,111,2024-01-01
+Ruanda,44,29,117,2024-01-01
+Rumänien: Bukarest,32,21,92,2024-01-01
+Rumänien,27,18,89,2024-01-01
+Russische Föderation: Jekaterinburg,28,19,84,2024-01-01
+Russische Föderation: Moskau,30,20,110,2024-01-01
+Russische Föderation: St. Petersburg,26,17,114,2024-01-01
+Russische Föderation,24,16,58,2024-01-01
+Sambia,38,25,105,2024-01-01
+Samoa,39,26,105,2024-01-01
+San Marino,34,23,79,2024-01-01
+São Tomé – Príncipe,47,32,80,2024-01-01
+Saudi-Arabien: Djidda,57,38,181,2024-01-01
+Saudi-Arabien: Riad,56,37,186,2024-01-01
+Saudi-Arabien,56,37,181,2024-01-01
+Schweden,66,44,140,2024-01-01
+Schweiz: Genf,66,44,186,2024-01-01
+Schweiz,64,43,180,2024-01-01
+Senegal,42,28,190,2024-01-01
+Serbien,27,18,97,2024-01-01
+Sierra Leone,57,38,145,2024-01-01
+Simbabwe,45,30,140,2024-01-01
+Singapur,54,36,197,2024-01-01
+Slowakische Republik,33,22,121,2024-01-01
+Slowenien,38,25,126,2024-01-01
+Spanien: Barcelona,34,23,144,2024-01-01
+Spanien: Kanarische Inseln,36,24,103,2024-01-01
+Spanien: Madrid,42,28,131,2024-01-01
+Spanien: Palma de Mallorca,44,29,142,2024-01-01
+Spanien,34,23,103,2024-01-01
+Sri Lanka,36,24,112,2024-01-01
+Sudan,33,22,195,2024-01-01
+Südafrika: Kapstadt,33,22,130,2024-01-01
+Südafrika: Johannesburg,36,24,129,2024-01-01
+Südafrika,29,20,109,2024-01-01
+Südsudan,51,34,159,2024-01-01
+Syrien,38,25,140,2024-01-01
+Tadschikistan,27,18,118,2024-01-01
+Taiwan,46,31,143,2024-01-01
+Tansania,44,29,97,2024-01-01
+Thailand,38,25,110,2024-01-01
+Togo,39,26,118,2024-01-01
+Tonga,39,26,94,2024-01-01
+Trinidad und Tobago,66,44,203,2024-01-01
+Tschad,42,28,155,2024-01-01
+Tschechische Republik,32,21,77,2024-01-01
+Türkei: Istanbul,26,17,120,2024-01-01
+Türkei: Izmir,29,20,55,2024-01-01
+Türkei,17,12,95,2024-01-01
+Tunesien,40,27,144,2024-01-01
+Turkmenistan,33,22,108,2024-01-01
+Uganda,41,28,143,2024-01-01
+Ukraine,26,17,98,2024-01-01
+Ungarn,32,21,85,2024-01-01
+Uruguay,48,32,90,2024-01-01
+Usbekistan,34,23,104,2024-01-01
+Vatikanstaat,48,32,150,2024-01-01
+Venezuela,45,30,127,2024-01-01
+Vereinigte Arabische Emirate,65,44,156,2024-01-01
+Vereinigte Staaten von Amerika: Atlanta,77,52,182,2024-01-01
+Vereinigte Staaten von Amerika: Boston,63,42,333,2024-01-01
+Vereinigte Staaten von Amerika: Chicago,65,44,233,2024-01-01
+Vereinigte Staaten von Amerika: Houston,62,41,204,2024-01-01
+Vereinigte Staaten von Amerika: Los Angeles,64,43,262,2024-01-01
+Vereinigte Staaten von Amerika: Miami,65,44,256,2024-01-01
+Vereinigte Staaten von Amerika: New York City,66,44,308,2024-01-01
+Vereinigte Staaten von Amerika: San Francisco,59,40,327,2024-01-01
+"Vereinigte Staaten von Amerika: Washington, D. C.",66,44,203,2024-01-01
+Vereinigte Staaten von Amerika,59,40,182,2024-01-01
+Vereinigtes Königreich von Großbritannien und Nordirland: London,66,44,163,2024-01-01
+Vereinigtes Königreich von Großbritannien und Nordirland,52,35,99,2024-01-01
+Vietnam,41,28,86,2024-01-01
+Weißrussland,20,13,98,2024-01-01
+Zentralafrikanische Republik,53,36,210,2024-01-01
+Zypern,42,28,125,2024-01-01
