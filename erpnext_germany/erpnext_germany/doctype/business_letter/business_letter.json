@@ -14,8 +14,8 @@
   "address_display",
   "column_break_ybiq",
   "date",
-  "author",
-  "author_name",
+  "sender",
+  "sender_name",
   "department",
   "company",
   "section_break_bsox",
@@ -77,7 +77,6 @@
    "fieldname": "content",
    "fieldtype": "Text Editor",
    "label": "Content",
-   "options": "Jinja",
    "print_hide": 1
   },
   {
@@ -199,39 +198,36 @@
    "remember_last_selected_value": 1
   },
   {
-   "fieldname": "author",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Author",
-   "options": "Employee",
-   "print_hide": 1,
-   "remember_last_selected_value": 1,
-   "reqd": 1
+   "fieldname": "recipient_column",
+   "fieldtype": "Column Break",
+   "label": "Recipient"
   },
   {
    "fieldname": "department",
    "fieldtype": "Link",
    "label": "Department",
-   "options": "Department",
-   "remember_last_selected_value": 1
+   "options": "Department"
   },
   {
-   "fetch_from": "author.employee_name",
-   "fieldname": "author_name",
+   "fieldname": "sender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sender",
+   "options": "Employee",
+   "print_hide": 1
+  },
+  {
+   "fetch_from": "sender.employee_name",
+   "fieldname": "sender_name",
    "fieldtype": "Data",
-   "label": "Author",
+   "label": "Sender",
    "read_only": 1
-  },
-  {
-   "fieldname": "recipient_column",
-   "fieldtype": "Column Break",
-   "label": "Recipient"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-11 16:14:01.183126",
+ "modified": "2024-11-06 16:32:15.764060",
  "modified_by": "Administrator",
  "module": "ERPNext Germany",
  "name": "Business Letter",
