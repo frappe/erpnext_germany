@@ -9,6 +9,7 @@ from frappe import get_installed_apps
 class BusinessTrip(Document):
 	def before_save(self):
 		self.set_regional_amount()
+		self.set_whole_day_time()
 		self.calculate_total()
 
 	def validate(self):
@@ -38,7 +39,13 @@ class BusinessTrip(Document):
 				amount += accomodation
 
 			allowance.amount = max(amount, 0.0)
-
+			
+	def set_whole_day_time(self):
+		for allowance in self.allowances:
+			if allowance.whole_day:
+				allowance.from_time = "00:00"
+				allowance.to_time = "23:59"
+				
 	def calculate_total(self):
 		self.total_allowance = sum(allowance.amount for allowance in self.allowances)
 
