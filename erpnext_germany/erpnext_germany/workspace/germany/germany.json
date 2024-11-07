@@ -1,0 +1,104 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"foL5O8DnUP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Letter\",\"col\":4}},{\"id\":\"oJkHa86NBg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Trip\",\"col\":4}},{\"id\":\"VYs-C5iICV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vat Id Check\",\"col\":3}},{\"id\":\"kJjc0XvpWD\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8IxzobqofO\",\"type\":\"card\",\"data\":{\"card_name\":\"Setup\",\"col\":4}},{\"id\":\"G5Fnz7UZYk\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2024-10-24 17:31:50.222160",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Germany",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Religious Denomination",
+   "link_count": 0,
+   "link_to": "Religious Denomination",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Business Trip Region",
+   "link_count": 0,
+   "link_to": "Business Trip Region",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Summen- und Saldenliste",
+   "link_count": 0,
+   "link_to": "Summen- und Saldenliste",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-10-24 18:06:06.599157",
+ "modified_by": "Administrator",
+ "module": "ERPNext Germany",
+ "name": "Germany",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 53.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Business Letter",
+   "link_to": "Business Letter",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{} Invalid",
+   "label": "Vat Id Check",
+   "link_to": "VAT ID Check",
+   "stats_filter": "[[\"VAT ID Check\",\"status\",\"=\",\"Completed\",false],[\"VAT ID Check\",\"is_valid\",\"=\",0,false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Business Trip",
+   "link_to": "Business Trip",
+   "stats_filter": "[[\"Business Trip\",\"status\",\"=\",\"Submitted\",false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Germany"
+}

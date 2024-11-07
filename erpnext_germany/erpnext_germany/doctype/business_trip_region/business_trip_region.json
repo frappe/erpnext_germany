@@ -1,7 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
- "autoname": "field:title",
+ "autoname": "hash",
  "creation": "2022-11-01 20:24:28.877901",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -10,32 +9,53 @@
   "title",
   "whole_day",
   "arrival_or_departure",
-  "accommodation"
+  "accommodation",
+  "column_break_ajul",
+  "valid_from",
+  "disabled"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title",
-   "unique": 1
+   "label": "Title"
   },
   {
    "description": "For an absence of at least 24 hours per calendar day",
    "fieldname": "whole_day",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Whole Day"
   },
   {
    "description": "For the day of arrival and departure and for an absence of more than 8 hours per calendar day",
    "fieldname": "arrival_or_departure",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Arrival or Departure"
   },
   {
    "description": "Lump sum for accommodation expenses",
    "fieldname": "accommodation",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Accommodation"
+  },
+  {
+   "fieldname": "valid_from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Valid From"
+  },
+  {
+   "fieldname": "column_break_ajul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -45,10 +65,11 @@
    "link_fieldname": "region"
   }
  ],
- "modified": "2024-09-04 23:22:20.930187",
+ "modified": "2024-10-24 22:42:37.127349",
  "modified_by": "Administrator",
  "module": "ERPNext Germany",
  "name": "Business Trip Region",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {
@@ -62,8 +83,20 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "role": "Employee",
+   "select": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Accounts User",
+   "write": 1
   }
  ],
+ "search_fields": "valid_from",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

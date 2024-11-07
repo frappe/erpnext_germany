@@ -1,6 +1,5 @@
 import frappe
 from erpnext import get_default_company
-from erpnext_germany.utils.eu_vat import parse_vat_id
 from frappe.query_builder import DocType
 from pypika import Interval
 from pypika import functions as fn
@@ -78,7 +77,7 @@ def get_last_check_query(party_type: str):
 		)
 		.where(
 			(vat_id_checks.party_type == party_type)
-			& (vat_id_checks.status == "Completed")
+			& (vat_id_checks.status.isin(["Completed", "Invalid Input"]))
 		)
 		.groupby(vat_id_checks.party)
 	)

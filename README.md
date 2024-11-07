@@ -56,7 +56,7 @@ bench --site demo.com install-app erpnext_germany
 
 ## Business Trip
 
-Before an employee can create a **Business Trip**, you should configure the available regions and their travel allowances in the **Business Trip Region** list.
+Before an employee can create a **Business Trip**, you should configure the available regions and their travel allowances in the **Business Trip Region** list. If you have HRMS installed, add the **Expense Claim Type** **Additional meal expenses** to allow the expenses book as Expense Claims.
 
 When a **Business Trip** is submitted, it creates a draft **Expense Claim** for the employee's travel allowances. The **Expense Claim** can be approved and submitted as usual.
 
