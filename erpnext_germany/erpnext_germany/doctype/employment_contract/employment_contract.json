@@ -1,0 +1,193 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-15 10:55:46.902007",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "salutation",
+  "first_name",
+  "last_name",
+  "birthday",
+  "birthplace",
+  "address",
+  "column_break_ryzy",
+  "employee",
+  "company",
+  "working_time_section",
+  "start_date",
+  "working_time_per_week",
+  "distribute",
+  "working_time_per_weekday",
+  "vacation_days_per_year",
+  "section_break_zspi",
+  "currency",
+  "remuneration",
+  "section_break_afys",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_afys",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Employment Contract",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "label": "Salutation",
+   "options": "Salutation"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "birthday",
+   "fieldtype": "Date",
+   "label": "Birthday"
+  },
+  {
+   "fieldname": "birthplace",
+   "fieldtype": "Data",
+   "label": "Birthplace"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_ryzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "working_time_section",
+   "fieldtype": "Section Break",
+   "label": "Working Time"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "working_time_per_week",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "hide_seconds": 1,
+   "label": "Working Time per Week"
+  },
+  {
+   "fieldname": "working_time_per_weekday",
+   "fieldtype": "Table",
+   "label": "Working Time per Weekday",
+   "options": "Weekday Working Time"
+  },
+  {
+   "fieldname": "vacation_days_per_year",
+   "fieldtype": "Float",
+   "label": "Vacation Days per Year"
+  },
+  {
+   "fieldname": "section_break_zspi",
+   "fieldtype": "Section Break",
+   "label": "Remuneration"
+  },
+  {
+   "fieldname": "remuneration",
+   "fieldtype": "Table",
+   "label": "Remuneration",
+   "options": "Work Remuneration"
+  },
+  {
+   "fieldname": "distribute",
+   "fieldtype": "Button",
+   "label": "Distribute"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  }
+ ],
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-15 12:43:22.616668",
+ "modified_by": "Administrator",
+ "module": "ERPNext Germany",
+ "name": "Employment Contract",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR User",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
