@@ -7,12 +7,16 @@
  "field_order": [
   "amended_from",
   "section_break_ikyq",
+  "recipient_column",
   "address",
-  "address_display",
-  "column_break_ybiq",
   "contact",
   "email_id",
+  "address_display",
+  "column_break_ybiq",
   "date",
+  "sender",
+  "sender_name",
+  "department",
   "company",
   "section_break_bsox",
   "template",
@@ -108,7 +112,8 @@
   },
   {
    "fieldname": "column_break_ybiq",
-   "fieldtype": "Column Break"
+   "fieldtype": "Column Break",
+   "label": "Sender"
   },
   {
    "fieldname": "preview_tab",
@@ -191,12 +196,38 @@
    "options": "Company",
    "print_hide": 1,
    "remember_last_selected_value": 1
+  },
+  {
+   "fieldname": "recipient_column",
+   "fieldtype": "Column Break",
+   "label": "Recipient"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "sender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sender",
+   "options": "Employee",
+   "print_hide": 1
+  },
+  {
+   "fetch_from": "sender.employee_name",
+   "fieldname": "sender_name",
+   "fieldtype": "Data",
+   "label": "Sender",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-24 16:00:48.347166",
+ "modified": "2024-11-06 16:32:15.764060",
  "modified_by": "Administrator",
  "module": "ERPNext Germany",
  "name": "Business Letter",
