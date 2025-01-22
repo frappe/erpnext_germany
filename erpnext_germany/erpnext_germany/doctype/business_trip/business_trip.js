@@ -4,6 +4,13 @@
 frappe.ui.form.on("Business Trip", {
 	setup(frm) {
 		frm.set_query("employee", erpnext.queries.employee);
+		frm.set_query("region", (doc) => {
+			return {
+				filters: {
+					valid_from: ["<=", doc.from_date], 
+				}
+			};
+		});
 	},
 
 	from_date: function (frm) {

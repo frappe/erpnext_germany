@@ -1,8 +1,11 @@
+import contextlib
 from csv import DictReader
 
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 from frappe.custom.doctype.property_setter.property_setter import make_property_setter
+from frappe.exceptions import DuplicateEntryError
+
 from .custom_fields import get_custom_fields
 
 
@@ -17,6 +20,8 @@ def import_data():
 	for doctype, filename in (
 		("Religious Denomination", "religious_denomination.csv"),
 		("Employee Health Insurance", "employee_health_insurance.csv"),
+		("Expense Claim Type", "expense_claim_type.csv"),
+		("Business Trip Region", "business_trip_region.csv"),
 	):
 		if not frappe.db.exists("DocType", doctype):
 			continue
@@ -30,11 +35,14 @@ def import_csv(doctype, path):
 		reader = DictReader(csvfile)
 		for row in reader:
 			if frappe.db.exists(doctype, row):
+				# This doesn't catch all duplicates, because it expects all
+				# fields to match, not (only) the primary key.
 				continue
 
 			doc = frappe.new_doc(doctype)
 			doc.update(row)
-			doc.insert()
+			with contextlib.suppress(DuplicateEntryError):
+				doc.insert()
 
 
 def make_property_setters():

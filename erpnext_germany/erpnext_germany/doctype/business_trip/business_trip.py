@@ -60,6 +60,7 @@ class BusinessTrip(Document):
 				"posting_date": frappe.utils.today(),
 				"business_trip": self.name,
 				"project": self.project,
+				"cost_center": self.cost_center,
 			}
 		)
 
@@ -87,6 +88,8 @@ class BusinessTrip(Document):
 					"description": description,
 					"amount": allowance.amount,
 					"sanctioned_amount": allowance.amount,
+					"project": self.project,
+					"cost_center": self.cost_center,
 				},
 			)
 
