@@ -24,6 +24,7 @@
   "customer",
   "section_break_12",
   "journeys",
+  "total_mileage_allowance",
   "section_break_14",
   "accommodations",
   "section_break_16",
@@ -119,6 +120,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "description": "is collected from Project if available",
    "fetch_from": "project.customer",
    "fieldname": "customer",
    "fieldtype": "Link",
@@ -178,11 +180,20 @@
    "read_only": 1
   },
   {
+   "description": "is collected from Project if available",
+   "fetch_from": "project.cost_center",
    "fieldname": "cost_center",
    "fieldtype": "Link",
    "in_standard_filter": 1,
    "label": "Cost Center",
    "options": "Cost Center"
+  },
+  {
+   "description": "Paid only for Car (private)",
+   "fieldname": "total_mileage_allowance",
+   "fieldtype": "Currency",
+   "label": "Total Mileage Allowance",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -191,9 +202,13 @@
   {
    "link_doctype": "Expense Claim",
    "link_fieldname": "business_trip"
+  },
+  {
+   "link_doctype": "Purchase Invoice",
+   "link_fieldname": "business_trip"
   }
  ],
- "modified": "2024-10-11 13:54:43.761341",
+ "modified": "2025-01-23 14:03:09.103068",
  "modified_by": "Administrator",
  "module": "ERPNext Germany",
  "name": "Business Trip",
