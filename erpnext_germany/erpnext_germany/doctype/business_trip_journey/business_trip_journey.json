@@ -9,6 +9,7 @@
   "mode_of_transport",
   "from",
   "to",
+  "distance",
   "receipt"
  ],
  "fields": [
@@ -24,7 +25,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Mode of Transport",
-   "options": "Car\nTaxi\nBus\nTrain\nAirplane\nPublic Transport",
+   "options": "Car\nCar (private)\nCar (rental)\nTaxi\nBus\nTrain\nAirplane\nPublic Transport",
    "reqd": 1
   },
   {
@@ -46,12 +47,21 @@
    "fieldtype": "Attach",
    "in_list_view": 1,
    "label": "Receipt"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.mode_of_transport===\"Car (private)\"",
+   "description": "Used to calculate the total Mileage Allowance",
+   "fieldname": "distance",
+   "fieldtype": "Int",
+   "label": "Distance",
+   "non_negative": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-09-04 22:59:47.424300",
+ "modified": "2025-01-23 13:59:47.239293",
  "modified_by": "Administrator",
  "module": "ERPNext Germany",
  "name": "Business Trip Journey",

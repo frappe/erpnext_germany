@@ -1,0 +1,255 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-07 09:11:20.931650",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "expense_claim_section",
+  "expense_claim_type",
+  "expense_claim_type_car",
+  "mileage_allowance",
+  "section_break_dhgm",
+  "standard_supplier_car",
+  "standard_supplier_car_rental",
+  "standard_supplier_taxi",
+  "standard_supplier_bus",
+  "standard_supplier_train",
+  "standard_supplier_airplane",
+  "standard_supplier_public_transport",
+  "standard_supplier_accommodation",
+  "column_break_eceh",
+  "standard_item_car",
+  "standard_item_car_rental",
+  "standard_item_taxi",
+  "standard_item_bus",
+  "standard_item_train",
+  "standard_item_airplane",
+  "standard_item_public_transport",
+  "standard_item_accommodation",
+  "column_break_ujmb",
+  "standard_account_car",
+  "standard_account_car_rental",
+  "standard_account_taxi",
+  "standard_account_bus",
+  "standard_account_train",
+  "standard_account_airplane",
+  "standard_account_public_transport",
+  "standard_account_accommodation"
+ ],
+ "fields": [
+  {
+   "default": "Additional meal expenses",
+   "fieldname": "expense_claim_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Expense Claim Type for Additional Meal Expenses",
+   "options": "Expense Claim Type",
+   "reqd": 1
+  },
+  {
+   "default": "0.3",
+   "description": "value / distance: e.g. 0.30\u20ac/km",
+   "fieldname": "mileage_allowance",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Mileage Allowance",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "default": "Additional meal expenses",
+   "fieldname": "expense_claim_type_car",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Expense Claim Type for Mileage Allowance",
+   "options": "Expense Claim Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expense_claim_section",
+   "fieldtype": "Section Break",
+   "label": "Expense Claim"
+  },
+  {
+   "fieldname": "section_break_dhgm",
+   "fieldtype": "Section Break",
+   "label": "Standard Suppliers / Items / Expense Accounts"
+  },
+  {
+   "fieldname": "standard_supplier_car",
+   "fieldtype": "Link",
+   "label": "Car",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_supplier_car_rental",
+   "fieldtype": "Link",
+   "label": "Car (rental)",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_supplier_taxi",
+   "fieldtype": "Link",
+   "label": "Taxi",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_supplier_bus",
+   "fieldtype": "Link",
+   "label": "Bus",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_supplier_train",
+   "fieldtype": "Link",
+   "label": "Train",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_supplier_airplane",
+   "fieldtype": "Link",
+   "label": "Airplane",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_supplier_public_transport",
+   "fieldtype": "Link",
+   "label": "Public Transport",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_eceh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "standard_item_car",
+   "fieldtype": "Link",
+   "label": "Car",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_item_car_rental",
+   "fieldtype": "Link",
+   "label": "Car (rental)",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_item_taxi",
+   "fieldtype": "Link",
+   "label": "Taxi",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_item_bus",
+   "fieldtype": "Link",
+   "label": "Bus",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_item_train",
+   "fieldtype": "Link",
+   "label": "Train",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_item_airplane",
+   "fieldtype": "Link",
+   "label": "Airplane",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_item_public_transport",
+   "fieldtype": "Link",
+   "label": "Public Transport",
+   "options": "Item"
+  },
+  {
+   "fieldname": "standard_supplier_accommodation",
+   "fieldtype": "Link",
+   "label": "Accommodation",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "standard_item_accommodation",
+   "fieldtype": "Link",
+   "label": "Accommodation",
+   "options": "Item"
+  },
+  {
+   "fieldname": "column_break_ujmb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "standard_account_car",
+   "fieldtype": "Link",
+   "label": "Car",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_car_rental",
+   "fieldtype": "Link",
+   "label": "Car (rental)",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_taxi",
+   "fieldtype": "Link",
+   "label": "Taxi",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_bus",
+   "fieldtype": "Link",
+   "label": "Bus",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_train",
+   "fieldtype": "Link",
+   "label": "Train",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_airplane",
+   "fieldtype": "Link",
+   "label": "Airplane",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_public_transport",
+   "fieldtype": "Link",
+   "label": "Public Transport",
+   "options": "Account"
+  },
+  {
+   "fieldname": "standard_account_accommodation",
+   "fieldtype": "Link",
+   "label": "Accommodation",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-23 13:05:37.175283",
+ "modified_by": "Administrator",
+ "module": "ERPNext Germany",
+ "name": "Business Trip Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

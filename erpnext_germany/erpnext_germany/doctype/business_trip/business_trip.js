@@ -42,3 +42,27 @@ frappe.ui.form.on("Business Trip Accommodation", {
 		frappe.model.set_value(cdt, cdn, "to_date", frm.doc.to_date);
 	},
 });
+
+frappe.ui.form.on("Business Trip Allowance", {
+    allowances_add(frm) {
+		if (!frm.doc.from_date || !frm.doc.to_date || frm.doc.to_date < frm.doc.from_date) {
+            frappe.msgprint(__('Please enter a correct start and end date of the trip!'));
+            return;
+        }
+	
+        if (frm.doc.allowances && frm.doc.allowances.length == 1) {
+            let start = new Date(frm.doc.from_date);
+			let end = new Date(frm.doc.to_date);
+
+			frm.clear_table("allowances");
+
+			for (let d = start; d <= end; d.setDate(d.getDate() + 1)) {
+				let child = frm.add_child("allowances");
+				let d_string = d.toISOString().slice(0, 10);
+				frappe.model.set_value(child.doctype, child.name, "date", d_string);
+			}
+
+			frm.refresh_field("allowances");
+        }
+	},
+});

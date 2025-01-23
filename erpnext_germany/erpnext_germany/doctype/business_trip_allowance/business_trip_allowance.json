@@ -14,7 +14,8 @@
   "lunch_was_provided",
   "dinner_was_provided",
   "accommodation_was_provided",
-  "amount"
+  "amount",
+  "payment_terms"
  ],
  "fields": [
   {
@@ -85,12 +86,18 @@
    "in_list_view": 1,
    "label": "Amount",
    "read_only": 1
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Link",
+   "label": "Payment Terms",
+   "options": "Payment Term"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-09-04 22:59:26.731082",
+ "modified": "2024-11-15 13:59:27.588591",
  "modified_by": "Administrator",
  "module": "ERPNext Germany",
  "name": "Business Trip Allowance",
